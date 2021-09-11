@@ -1,0 +1,12 @@
+{
+    // VSCode 中的 ESLint 插件默认是不会检查 `.vue`、`.ts` 或 `.tsx` 后缀的
+    "eslint.validate": ["javascript", "javascriptreact", "vue", "typescript", "typescriptreact"],
+    // 开启保存时自动修复
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    // 指定VSCode用于IntelliSense(智能感知)的ts版本，将内置版本更换为工作区版本
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
